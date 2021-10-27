@@ -1,0 +1,148 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Health SCOPE Hospital</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="stylesheet" href="./styles.css"/>
+    </head>
+
+    <body>
+        <!---------------Navigation Bar-------------------->
+        <div id="nav-bar">
+            <a class="hospital-logo" href=""><span style="color:#00cec8">H</span><span style="color:#223a7a">S</span></a>
+            <div class="menu-items-container">
+                <a class="menu-items" href="#sp-section">Specialities</a>
+                <a class="menu-items" href="#hcp">Health Check Packages</a>
+                <a class="menu-items" href="#appointment">Appointment</a>
+                <a class="menu-items" href="#footer">Contact</a>
+            </div>
+        </div>
+
+        <!---------------Intro-section---------------------->
+        <div id="intro-section">
+            <h1>Health <span style="color:#223a7a">SCOPE</span></h1>
+            <h3>
+                <div class="div-1"></div>
+                <div class="div-2">Caring. Healing. Leading.</div> 
+                <div class="div-3"></div>
+            </h3>
+            <div class="button-div">
+                <a href="#appointment"><button>Book an Appointment</button></a>
+                <a href="#footer"><button>Contact us</button></a>
+            </div>
+        </div>
+
+        <!----------------Specialities-section------------------->
+        <div id="sp-section">
+            <div class="div-1">
+                <img src="doctor.png" alt="doctor" />
+            </div>
+            <div class="div-2">
+                <h2>Specialities</h2>
+                <table>
+                    <tr>
+                        <td><i class="fas fa-plane"></i> <span class="specialities">Aerospace Medicine</span></td>
+                        <td><i class="fas fa-syringe"></i> <span class="specialities">Anaesthesia</span></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-heartbeat"></i> <span class="specialities">Cardiology</span></td>
+                        <td><i class="fas fa-viruses"></i> <span class="specialities">Infectious Diseases</span></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-briefcase-medical"></i> <span class="specialities">Emergency Medicine</span></td>
+                        <td><i class="fas fa-stethoscope"></i> <span class="specialities">Internal Medicine</span></td>
+                    </tr>
+                    <tr>
+                        <td><i class="fas fa-brain"></i> <span class="specialities">Neurology</span></td>
+                        <td><i class="far fa-eye"></i> <span class="specialities">Opthalmology</span></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+         <!-----------------Health check packages-------------------->
+         <div id="hcp">
+             <h2>Health Check Packages</h2>
+            <div class="hcp-div">
+                <img src="hcp-1.jpg" alt="health-check-package-1" />
+                <p>Post COVID Care Package</p>
+                <p>Male, Female : Rs. 500</p>
+            </div>
+            <div class="hcp-div">
+                <img src="hcp-2.jpg" alt="health-check-package-2" />
+                <p>Health Check for ages below 60</p>
+                <p>Male, Female : Rs. 1000</p>
+            </div>
+            <div class="hcp-div">
+                <img src="hcp-3.jpg" alt="health-check-package-3" />
+                <p>Comprehensive Cardiac Screening Package</p>
+                <p>Male, Female : Rs. 3999</p>
+            </div>
+            <div class="hcp-div">
+                <img src="hcp-4.jpg" alt="health-check-package-4" />
+                <p>Health Check for ages above 60</p>
+                <p>Male, Female : Rs. 1999</p>
+            </div>
+            <div class="hcp-div">
+                <img src="hcp-5.jpg" alt="health-check-package-5" />
+                <p>Health Check for Infants</p>
+                <p>Male, Female : Rs. 2999</p>
+            </div>
+            <div class="hcp-div">
+                <img src="hcp-6.jpg" alt="health-check-package-6" />
+                <p>Basic Cancer Screening Package</p>
+                <p>Feamle : Rs. 3500</p>
+            </div>
+         </div>
+
+         <!---------------Appointmen-section-------------------->
+         <div id="appointment">
+             
+             <div class="div-1">
+                <h2>Book an Appointment</h2>
+                <form>
+                    <input type="text" placeholder="Full Name" required/><br/>
+                    <input type="tel" placeholder="Phone No" required/><br/>
+                    <input type="email" placeholder="Email" /><br/>
+                    <select>
+                        <option selected disabled>Choose a Specialist</option>
+                        <option>General Surgeon</option>
+                        <option>Opthalmologist</option>
+                        <option>Orthodontist</option>
+                        <option>Cardiologist</option>
+                        <option>Neurosurgeon</option>
+                        <option>Orthopaedic</option>
+                        <option>ENT Specialist</option>
+                        <option>Other</option>
+                    </select><br/>
+                    <textarea rows="6" cols="60" placeholder="Any queries..."></textarea><br/>
+                    <button class="submit-btn" type="submit">Book Now</button>
+                </form>
+             </div>
+             <div class="div-2">
+                <img src="appointment.png" alt="appointment" />
+             </div>
+         </div>
+
+         <!-----------------Footer-section--------------------->
+         <div id="footer">
+             <div class="div-1">
+                <h4>Contact Us</h4>
+                <p><i class="fas fa-phone"></i> 123-234-5667</p>    
+                <p><a href="mailto:healthscope@healthcentre.in"><i class="fas fa-envelope"></i> healthscope@healthcentre.in</a></p><br/>
+                <i class="fab fa-facebook-square"></i> 
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-linkedin"></i>
+                <i class="fab fa-quora"></i>
+             </div>
+             <div class="div-2">
+                <p><a href="">Terms &amp; conditions</a></p>
+                <p><a href="">About us</a></p>
+                <p><a href="">Testimonials</a></p>
+                <p>© 2021 | All rights reserved</p>
+             </div>
+         </div>
+    </body>
+</html>
